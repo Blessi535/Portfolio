@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Studies | M Blessi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030406; }
+    .hero-glow {
+      background: radial-gradient(circle at 50% -10%, #1e1b4b 0%, #030406 60%);
+    }
+    .case-card {
+      background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .case-card:hover {
+      border-color: rgba(99, 102, 241, 0.4);
+      background: rgba(255, 255, 255, 0.05);
+      transform: translateY(-8px);
+    }
+  </style>
+</head>
+
+<body class="text-slate-300 antialiased selection:bg-indigo-500/30">
+
+<nav class="fixed w-full border-b border-white/5 bg-[#030406]/80 backdrop-blur-xl z-50 px-8 py-5">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    <div class="text-2xl font-extrabold text-white tracking-tighter">M BLESSI <span class="text-indigo-500">.</span></div>
+    <div class="hidden md:flex items-center gap-10 text-[11px] font-bold uppercase tracking-[0.3em] text-slate-400">
+      <a href="index.html" class="hover:text-indigo-400 transition-colors">Home</a>
+      <a href="services.html" class="hover:text-indigo-400 transition-colors">Expertise</a>
+      <a href="case.html" class="text-indigo-500">Case Studies</a>
+      <a href="index.html" class="bg-white text-black px-6 py-2.5 rounded-full hover:bg-indigo-500 hover:text-white transition-all">Start Project</a>
+    </div>
+  </div>
+</nav>
+
+<main class="hero-glow pt-48 pb-32 px-8">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="text-center mb-24">
+      <span class="text-indigo-500 font-bold tracking-[0.4em] text-[10px] uppercase block mb-4">Portfolio of Work</span>
+      <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tighter mb-8 leading-tight">
+        Proven <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Results.</span>
+      </h1>
+      <p class="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
+        Deep dives into how I utilize Artificial Intelligence and Data Science to solve real-world industrial and commercial challenges.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">Onion Quality Detection System</h3>
+            <span class="text-[10px] bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full font-bold uppercase">Computer Vision</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">Inconsistent manual sorting lead to 15% product waste.</p>
+            </div>
+            <div class="border-l-2 border-indigo-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-indigo-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">Real-time YOLOv8 classification for freshness and size.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">~90% <span class="text-xs text-slate-500 font-normal">Accuracy</span></div>
+          <p class="text-xs text-indigo-400 font-bold tracking-widest uppercase">YOLOv8 • OpenCV • Python</p>
+        </div>
+      </div>
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">AI-Based Weight Estimation</h3>
+            <span class="text-[10px] bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-full font-bold uppercase">Data Science</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">High hardware dependency for heavy object weighing.</p>
+            </div>
+            <div class="border-l-2 border-cyan-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-cyan-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">Dimension-to-mass estimation via image analysis.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">Scalable <span class="text-xs text-slate-500 font-normal">Hardware-Free</span></div>
+          <p class="text-xs text-cyan-400 font-bold tracking-widest uppercase">OpenCV • Regression • YOLO</p>
+        </div>
+      </div>
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">Real-time Forest Fire Detection</h3>
+            <span class="text-[10px] bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full font-bold uppercase">Deep Learning</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">Monitoring massive remote areas with late detection alerts.</p>
+            </div>
+            <div class="border-l-2 border-indigo-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-indigo-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">CNN-based smoke and fire classification via thermal-cams.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">92% <span class="text-xs text-slate-500 font-normal">Recall Rate</span></div>
+          <p class="text-xs text-indigo-400 font-bold tracking-widest uppercase">TensorFlow • CNN • Python</p>
+        </div>
+      </div>
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">Dermatological Diagnosis Tool</h3>
+            <span class="text-[10px] bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-full font-bold uppercase">MedTech</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">Lack of specialist access in rural early-diagnosis clinics.</p>
+            </div>
+            <div class="border-l-2 border-cyan-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-cyan-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">Multi-class skin disease classification model.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">85%+ <span class="text-xs text-slate-500 font-normal">Accuracy</span></div>
+          <p class="text-xs text-cyan-400 font-bold tracking-widest uppercase">Keras • NumPy • OpenCV</p>
+        </div>
+      </div>
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">Consumer Shopping Analysis</h3>
+            <span class="text-[10px] bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full font-bold uppercase">Analytics</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">Unstructured sales data providing no actionable strategy.</p>
+            </div>
+            <div class="border-l-2 border-indigo-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-indigo-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">EDA and K-Means clustering to define user personas.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">Strategic <span class="text-xs text-slate-500 font-normal">Actionable Insight</span></div>
+          <p class="text-xs text-indigo-400 font-bold tracking-widest uppercase">Pandas • Matplotlib • SkLearn</p>
+        </div>
+      </div>
+
+      <div class="case-card p-8 rounded-[2rem] flex flex-col justify-between">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <h3 class="text-xl font-bold text-white max-w-[70%]">Minimax AI Game Logic</h3>
+            <span class="text-[10px] bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-full font-bold uppercase">Algorithms</span>
+          </div>
+          <div class="space-y-4 mb-8">
+            <div class="border-l-2 border-white/10 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Challenge</p>
+              <p class="text-sm text-slate-400">Basic rule-based systems being easily defeated.</p>
+            </div>
+            <div class="border-l-2 border-cyan-500/30 pl-4">
+              <p class="text-[10px] uppercase tracking-widest text-cyan-500 font-bold">Solution</p>
+              <p class="text-sm text-slate-400">Recursive Minimax algorithm for perfect game-state play.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-4">Unbeatable <span class="text-xs text-slate-500 font-normal">Game Logic</span></div>
+          <p class="text-xs text-cyan-400 font-bold tracking-widest uppercase">Minimax • Python • Recursion</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="py-12 text-center border-t border-white/5">
+  <p class="text-slate-600 text-[10px] font-bold uppercase tracking-[0.5em]">© 2026 M Blessi • Portfolios of Intelligence</p>
+</footer>
+
+</body>
+</html>
